@@ -445,6 +445,8 @@ NSInteger apps;
 //%end
 
 #pragma mark - Applications
+%group Applications
+
 %hook UIApplication
 %new
 -(void)updateTraitOverride {
@@ -469,6 +471,8 @@ NSInteger apps;
 }
 %end
 
+%end
+
 #pragma mark - Settings Manager
 void settingsChanged() {
 
@@ -490,6 +494,10 @@ void settingsChanged() {
 
     //[preferences registerInteger:&faceid default:0 forKey:@"faceid"];
 
+    [NSNotificationCenter.defaultCenter postNotificationName:@"com.ethanrdoesmc.dawn/override" object:nil];
+}
+void settingsChangedForApplications() {
+
     [preferences registerInteger:&apps default:0 forKey:@"apps"];
 
     [NSNotificationCenter.defaultCenter postNotificationName:@"com.ethanrdoesmc.dawn/override" object:nil];
@@ -497,7 +505,12 @@ void settingsChanged() {
 
 #pragma mark - Constructor
 %ctor {
-    if ([[[[NSProcessInfo processInfo] arguments] objectAtIndex:0] containsString:@"/Application"] || [[[[NSProcessInfo processInfo] arguments] objectAtIndex:0] containsString:@"SpringBoard.app"]) {
+    if ( [[[[NSProcessInfo processInfo] arguments] objectAtIndex:0] containsString:@"/Application"] ) {
+        preferences = [[HBPreferences alloc] initWithIdentifier:@"com.ethanrdoesmc.dawn"];
+        settingsChangedForApplications();
+        CFNotificationCenterAddObserver(CFNotificationCenterGetDarwinNotifyCenter(), NULL, (CFNotificationCallback)settingsChangedForApplications, CFSTR("com.ethanrdoesmc.dawn/settingsChangedForApplications"), NULL, kNilOptions);
+        %init(Applications);
+    } else if ( [[[[NSProcessInfo processInfo] arguments] objectAtIndex:0] containsString:@"SpringBoard.app"] ) {
         preferences = [[HBPreferences alloc] initWithIdentifier:@"com.ethanrdoesmc.dawn"];
         settingsChanged();
         CFNotificationCenterAddObserver(CFNotificationCenterGetDarwinNotifyCenter(), NULL, (CFNotificationCallback)settingsChanged, CFSTR("com.ethanrdoesmc.dawn/settingsChanged"), NULL, kNilOptions);
