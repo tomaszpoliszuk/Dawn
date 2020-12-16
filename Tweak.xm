@@ -29,15 +29,7 @@
 -(void)updateTraitOverride;
 @end
 
-@interface WGWidgetPlatterView : UIView
--(void)updateTraitOverride;
-@end
-
-@interface WGWidgetHostingViewController : UIViewController
--(void)updateTraitOverride;
-@end
-
-@interface _WGWidgetRemoteViewController : UIViewController
+@interface WGWidgetGroupViewController : UIViewController
 -(void)updateTraitOverride;
 @end
 
@@ -67,6 +59,10 @@
 @end
 
 @interface UIInterfaceActionGroupView : UIView
+-(void)updateTraitOverride;
+@end
+
+@interface _UIContextMenuActionsListView : UIInterfaceActionGroupView
 -(void)updateTraitOverride;
 @end
 
@@ -178,73 +174,15 @@ NSInteger apps;
 }
 %end
 #pragma mark - Widgets
-%hook WGWidgetPlatterView
+%hook WGWidgetGroupViewController
 %new
 -(void)updateTraitOverride {
     [self setOverrideUserInterfaceStyle:widgets];
 }
--(id)initWithFrame:(CGRect)arg1 {
-    if ((self = %orig)) {
-        [NSNotificationCenter.defaultCenter addObserver:self selector:@selector(updateTraitOverride) name:@"com.ethanrdoesmc.dawn/override" object:nil];
+- (void)viewWillAppear:(bool)arg1 {
+    [NSNotificationCenter.defaultCenter addObserver:self selector:@selector(updateTraitOverride) name:@"com.ethanrdoesmc.dawn/override" object:nil];
+    if ( widgets > 0 ) {
         [self setOverrideUserInterfaceStyle:widgets];
-    }
-    return self;
-}
--(void)didMoveToWindow {
-    if (widgets > 0) {
-        [self setOverrideUserInterfaceStyle:widgets];
-    }
-    %orig;
-}
-%end
-
-%hook WGWidgetHostingViewController
-%new
--(void)updateTraitOverride {
-    if (@available(iOS 13, *)) {
-        [self setOverrideUserInterfaceStyle:widgets];
-    }
-}
--(id)init {
-    if ((self = %orig)) {
-        [NSNotificationCenter.defaultCenter addObserver:self selector:@selector(updateTraitOverride) name:@"com.ethanrdoesmc.dawn/override" object:nil];
-        if (@available(iOS 13, *)) {
-            [self setOverrideUserInterfaceStyle:widgets];
-        }
-    }
-    return self;
-}
--(void)viewDidLoad {
-    if (widgets > 0) {
-        if (@available(iOS 13, *)) {
-            [self setOverrideUserInterfaceStyle:widgets];
-        }
-    }
-    %orig;
-}
-%end
-
-%hook _WGWidgetRemoteViewController
-%new
--(void)updateTraitOverride {
-    if (@available(iOS 13, *)) {
-        [self setOverrideUserInterfaceStyle:widgets];
-    }
-}
--(id)init {
-    if ((self = %orig)) {
-        [NSNotificationCenter.defaultCenter addObserver:self selector:@selector(updateTraitOverride) name:@"com.ethanrdoesmc.dawn/override" object:nil];
-        if (@available(iOS 13, *)) {
-            [self setOverrideUserInterfaceStyle:widgets];
-        }
-    }
-    return self;
-}
--(void)viewDidLoad {
-    if (widgets > 0) {
-        if (@available(iOS 13, *)) {
-            [self setOverrideUserInterfaceStyle:widgets];
-        }
     }
     %orig;
 }
@@ -377,17 +315,10 @@ NSInteger apps;
 %end
 
 #pragma mark - Quick Actions
-%hook UIInterfaceActionGroupView
+%hook _UIContextMenuActionsListView
 %new
 -(void)updateTraitOverride {
     [self setOverrideUserInterfaceStyle:hsquickactions];
-}
--(id)initWithFrame:(CGRect)arg1 {
-    if ((self = %orig)) {
-        [NSNotificationCenter.defaultCenter addObserver:self selector:@selector(updateTraitOverride) name:@"com.ethanrdoesmc.dawn/override" object:nil];
-        [self setOverrideUserInterfaceStyle:hsquickactions];
-    }
-    return self;
 }
 -(void)didMoveToWindow {
     if (hsquickactions > 0) {
@@ -398,21 +329,6 @@ NSInteger apps;
 %end
 
 %hook SBHIconViewContextMenuWrapperViewController
-%new
--(void)updateTraitOverride {
-    if (@available(iOS 13, *)) {
-        [self setOverrideUserInterfaceStyle:hsquickactions];
-    }
-}
--(id)init {
-    if ((self = %orig)) {
-        [NSNotificationCenter.defaultCenter addObserver:self selector:@selector(updateTraitOverride) name:@"com.ethanrdoesmc.dawn/override" object:nil];
-        if (@available(iOS 13, *)) {
-            [self setOverrideUserInterfaceStyle:hsquickactions];
-        }
-    }
-    return self;
-}
 -(void)viewDidLoad {
     if (hsquickactions > 0) {
         if (@available(iOS 13, *)) {
