@@ -33,6 +33,18 @@
 -(void)updateTraitOverride;
 @end
 
+@interface SBHWidgetStackViewController : UIViewController
+-(void)updateTraitOverride;
+@end
+
+@interface WGWidgetListViewController : UIViewController
+-(void)updateTraitOverride;
+@end
+
+@interface WGMajorListViewController : WGWidgetListViewController
+-(void)updateTraitOverride;
+@end
+
 @interface NCToggleControl : UIView
 -(void)updateTraitOverride;
 @end
@@ -175,6 +187,34 @@ NSInteger apps;
 %end
 #pragma mark - Widgets
 %hook WGWidgetGroupViewController
+%new
+-(void)updateTraitOverride {
+    [self setOverrideUserInterfaceStyle:widgets];
+}
+- (void)viewWillAppear:(bool)arg1 {
+    [NSNotificationCenter.defaultCenter addObserver:self selector:@selector(updateTraitOverride) name:@"com.ethanrdoesmc.dawn/override" object:nil];
+    if ( widgets > 0 ) {
+        [self setOverrideUserInterfaceStyle:widgets];
+    }
+    %orig;
+}
+%end
+
+%hook WGMajorListViewController
+%new
+-(void)updateTraitOverride {
+    [self setOverrideUserInterfaceStyle:widgets];
+}
+- (void)viewWillAppear:(bool)arg1 {
+    [NSNotificationCenter.defaultCenter addObserver:self selector:@selector(updateTraitOverride) name:@"com.ethanrdoesmc.dawn/override" object:nil];
+    if ( widgets > 0 ) {
+        [self setOverrideUserInterfaceStyle:widgets];
+    }
+    %orig;
+}
+%end
+
+%hook SBHWidgetStackViewController
 %new
 -(void)updateTraitOverride {
     [self setOverrideUserInterfaceStyle:widgets];
