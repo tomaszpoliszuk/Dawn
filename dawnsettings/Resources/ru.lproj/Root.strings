@@ -26,10 +26,6 @@
 	<string>Медиа Плеер Экрана Блокировки</string>
 	<key>HS_QUICK_ACTIONS</key>
 	<string>Быстрые Действия Домашнего Экрана</string>
-	<key>APPLICATIONS_BETA_LABEL</key>
-	<string>Приложения (Бета)</string>
-	<key>APPLICATIONS_BETA_DEFAULT_HELP</key>
-    <string>После переключения этой опции к По умолчанию, вам нужно будет перезапустить приложения, которые были вынуждены использовать светлое/тёмное оформление, чтобы вернуть им обычное поведение. Перезапуск SpringBoard также исправит это.</string>
     <key>APPLICATIONS</key>
     <string>Приложения</string>
     <key>ABOUT_LABEL</key>

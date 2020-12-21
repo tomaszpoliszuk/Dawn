@@ -26,10 +26,6 @@
 	<string>Médialejátszó a Zárolási Képernyőn</string>
 	<key>HS_QUICK_ACTIONS</key>
 	<string>Gyors Elérés a Főképernyőn</string>
-	<key>APPLICATIONS_BETA_LABEL</key>
-	<string>Alkalmazások (Béta)</string>
-	<key>APPLICATIONS_BETA_DEFAULT_HELP</key>
-    <string>Miután alapértelmezettre állítod ezt a beállítást, újra kell majd indítanod azokat az alkalmazásokat, amelyek világos/sötét megjelenésre voltak állítva, hogy visszaálljanak az alaphelyzetükbe. A készülék "respring"-elése is megjavítja.</string>
     <key>APPLICATIONS</key>
     <string>Alkalmazások</string>
     <key>ABOUT_LABEL</key>

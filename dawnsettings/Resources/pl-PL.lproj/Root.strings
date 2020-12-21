@@ -26,10 +26,6 @@
 	<string>Ekran Blokady Odtwarzacz Multimedialny</string>
 	<key>HS_QUICK_ACTIONS</key>
 	<string>Ekran Główny Szybkie Akcje</string>
-	<key>APPLICATIONS_BETA_LABEL</key>
-	<string>Aplikacji (Beta)</string>
-	<key>APPLICATIONS_BETA_DEFAULT_HELP</key>
-    <string>Po ustawieniu tej opcji na Domyślnie, trzeba będzie zrestartować aplikacje, które zostały zmuszone do korzystania z ich jasne/ciemny, aby powrócić do standardowe zachowanie. Naprawi to również respring.</string>
     <key>APPLICATIONS</key>
     <string>Applications</string>
     <key>ABOUT_LABEL</key>

@@ -26,10 +26,6 @@
 	<string>ロック画面の音楽コントローラ</string>
 	<key>HS_QUICK_ACTIONS</key>
 	<string>ホーム画面のクイックアクション</string>
-	<key>APPLICATIONS_BETA_LABEL</key>
-	<string>アプリケーション内（β版）</string>
-	<key>APPLICATIONS_BETA_DEFAULT_HELP</key>
-    <string>この機能はβ版です．ライトまたはダークからデフォルトに変更した場合，適用するにはアプリを強制終了するかリスプリングを行う必要があります（他の機能は直ちに適用されます）．</string>
     <key>APPLICATIONS</key>
     <string>アプリケーション内（β版）</string>
     <key>ABOUT_LABEL</key>

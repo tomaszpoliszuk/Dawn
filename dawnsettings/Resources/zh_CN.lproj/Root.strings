@@ -26,10 +26,6 @@
 	<string>锁屏播放介面</string>
 	<key>HS_QUICK_ACTIONS</key>
 	<string>主屏页 3D Touch 快捷</string>
-	<key>APPLICATIONS_BETA_LABEL</key>
-	<string>应用程式 (Beta)</string>
-	<key>APPLICATIONS_BETA_DEFAULT_HELP</key>
-    <string>设置成默认之后，你需要重启其应用程式以便恢复默认设置。另一个方法就是respring。</string>
     <key>APPLICATIONS</key>
     <string>应用程式</string>
     <key>ABOUT_LABEL</key>

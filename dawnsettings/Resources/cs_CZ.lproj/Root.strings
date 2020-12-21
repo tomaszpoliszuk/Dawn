@@ -26,10 +26,6 @@
 	<string>Přehrávač Médií na Zamykací Obrazovce</string>
 	<key>HS_QUICK_ACTIONS</key>
 	<string>Rychlé Akce na Domovské Obrazovce</string>
-	<key>APPLICATIONS_BETA_LABEL</key>
-	<string>Aplikace (BETA)</string>
-	<key>APPLICATIONS_BETA_DEFAULT_HELP</key>
-    <string>Poté co vrátíte aplikace do Výchozího nastavení, budete muset restartovat ty, které předtím používaly nastavení Světlé/Tmavé, aby se vrátily ke svému výchozímu vzhledu. Respring by měl také fungovat.</string>
     <key>APPLICATIONS</key>
     <string>Aplikace</string>
     <key>ABOUT_LABEL</key>

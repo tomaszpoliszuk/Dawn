@@ -26,10 +26,6 @@
 	<string>Medienplayer (Sperrbildschirm)</string>
 	<key>HS_QUICK_ACTIONS</key>
 	<string>Schnellaktionen bzw. 3D Touch (Homebildschirm)</string>
-	<key>APPLICATIONS_BETA_LABEL</key>
-	<string>Applikationen (Beta)</string>
-	<key>APPLICATIONS_BETA_DEFAULT_HELP</key>
-	<string>Nachdem du diese Einstellung auf Standard setzt, musst du jede App, bei der du den hellen/dunklen Modus erzwungen hast, neustarten, damit diese so wie gewollt funktionieren. Ein Respring wird es ebenfalls beheben.</string>
     <key>APPLICATIONS</key>
     <string>Applikationen</string>
     <key>ABOUT_LABEL</key>

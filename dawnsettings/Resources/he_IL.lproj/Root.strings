@@ -26,10 +26,6 @@
 	<string>נגן המוזיקה במסך נעילה</string>
 	<key>HS_QUICK_ACTIONS</key>
 	<string>לחיצה ארוכה על אייקונים במסך הבית</string>
-	<key>APPLICATIONS_BETA_LABEL</key>
-	<string>אפליקציות (בטא)</string>
-	<key>APPLICATIONS_BETA_DEFAULT_HELP</key>
-    <string>בשביל להחיל שינוי בהגדרה זו, יש לעשות ריסטארט לאפליקציות או לעשות ריספרינג למכשיר.</string>
     <key>APPLICATIONS</key>
     <string>אפליקציות</string>
     <key>ABOUT_LABEL</key>

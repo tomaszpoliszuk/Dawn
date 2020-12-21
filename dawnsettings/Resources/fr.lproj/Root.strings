@@ -26,10 +26,6 @@
 	<string>Contrôles Musique d’Écran Verrouillé</string>
 	<key>HS_QUICK_ACTIONS</key>
 	<string>Actions Rapides d’Écran d’accueil</string>
-	<key>APPLICATIONS_BETA_LABEL</key>
-	<string>Applications (Beta)</string>
-	<key>APPLICATIONS_BETA_DEFAULT_HELP</key>
-    <string>Après avoir mis cette option à défaut, vous devrez redémarrer les applications qui avait une apparence claire/sombre forcée pour retourner au fonctionnement classique. Un “respring” marche aussi.</string>
     <key>APPLICATIONS</key>
     <string>Applications</string>
     <key>ABOUT_LABEL</key>

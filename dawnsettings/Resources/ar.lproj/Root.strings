@@ -26,10 +26,6 @@
 	<string>مشغل موسيقى شاشة القفل</string>
 	<key>HS_QUICK_ACTIONS</key>
 	<string>إجراءات الشاشة الرئيسية السريعة</string>
-	<key>APPLICATIONS_BETA_LABEL</key>
-	<string>التطبيقات (تجريبي)</string>
-	<key>APPLICATIONS_BETA_DEFAULT_HELP</key>
-    <string>بعد تعيين هذا الخيار على افتراضي، ستحتاج إلى إعادة تشغيل التطبيقات التي تم إجبارها على استخدام مظهرها الفاتح/الداكن لكي تعود إلى سلوكها الأصلي. إعادة التشغيل السريع ستصلح الأمر أيضًا.</string>
     <key>APPLICATIONS</key>
     <string>التطبيقات</string>
     <key>ABOUT_LABEL</key>

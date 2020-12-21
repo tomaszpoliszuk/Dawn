@@ -26,10 +26,6 @@
 	<string>잠금 화면 미디어 플레이어</string>
 	<key>HS_QUICK_ACTIONS</key>
 	<string>홈 화면 빠른 액션</string>
-	<key>APPLICATIONS_BETA_LABEL</key>
-	<string>앱 (베타)</string>
-	<key>APPLICATIONS_BETA_DEFAULT_HELP</key>
-    <string>이 옵션을 기본으로 바꾼 후에는 앱을 재시작하거나 리스프링을 해야만 적용됩니다.</string>
     <key>APPLICATIONS</key>
     <string>앱</string>
     <key>ABOUT_LABEL</key>

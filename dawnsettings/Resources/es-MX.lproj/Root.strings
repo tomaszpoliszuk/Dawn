@@ -8,10 +8,6 @@
 	<string>Información</string>
 	<key>APPLICATIONS</key>
 	<string>Aplicaciones</string>
-	<key>APPLICATIONS_BETA_DEFAULT_HELP</key>
-	<string>Después de poner está opción como Predeterminada, necesitas reiniciar las aplicaciones que fueron forzadas a usar su apariencia Clara/Obscura para que vuelvan a actuar normal. Un respring tambíen arreglara esto.</string>
-	<key>APPLICATIONS_BETA_LABEL</key>
-	<string>Aplicaciones (Beta)</string>
 	<key>BANNERS_NOTIFICATIONS</key>
 	<string>Tiras y Notificaciones</string>
 	<key>CREATED_BY_ETHANRDOESMC</key>

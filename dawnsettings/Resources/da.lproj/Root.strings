@@ -26,10 +26,6 @@
 	<string>Lock Screen Musikafspiller</string>
 	<key>HS_QUICK_ACTIONS</key>
 	<string>Home Screen 3D Touch eller Haptisk tryk</string>
-	<key>APPLICATIONS_BETA_LABEL</key>
-	<string>Applikationer (Beta)</string>
-	<key>APPLICATIONS_BETA_DEFAULT_HELP</key>
-    <string>Når du har valgt standard, skal du genstarte applikationer der har været tvunget til at bruge lys/mørk udseende for at få dem tilbage til normal igen. Et simpelt Respring kan også klare det.</string>
     <key>APPLICATIONS</key>
     <string>Applikationer</string>
     <key>ABOUT_LABEL</key>

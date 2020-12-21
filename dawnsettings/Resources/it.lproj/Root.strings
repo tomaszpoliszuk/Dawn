@@ -26,10 +26,6 @@
 	<string>Comandi multimediali sulla schermata di blocco</string>
 	<key>HS_QUICK_ACTIONS</key>
 	<string>Menù azioni rapide</string>
-	<key>APPLICATIONS_BETA_LABEL</key>
-	<string>Applicazioni (Beta)</string>
-	<key>APPLICATIONS_BETA_DEFAULT_HELP</key>
-    <string>Se impostato su Predefinito, dovrai riavviare le applicazioni sulle quali avevi impostato esclusivamente l'Aspetto Chiaro/Scuro. Anche un Respring andrà bene.</string>
     <key>APPLICATIONS</key>
     <string>Applicazioni</string>
     <key>ABOUT_LABEL</key>

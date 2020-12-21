@@ -26,10 +26,6 @@
 	<string>Kilit Ekranı Medya Oynatıcısı</string>
 	<key>HS_QUICK_ACTIONS</key>
 	<string>Ana Ekran Hızlı İşlemler</string>
-	<key>APPLICATIONS_BETA_LABEL</key>
-	<string>Uygulamalar (Beta)</string>
-	<key>APPLICATIONS_BETA_DEFAULT_HELP</key>
-    <string>Bu seçeneği Varsayılan olarak ayarladıktan sonra, varsayılana hallerine dönebilmeleri için açık / koyu görünümlerini kullanmaya zorlanan uygulamaları yeniden başlatmanız gerekir. Ayrıca respring de düzeltir.</string>
     <key>APPLICATIONS</key>
     <string>Uygulamalar</string>
     <key>ABOUT_LABEL</key>

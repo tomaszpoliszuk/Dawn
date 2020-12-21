@@ -26,10 +26,6 @@
 	<string>Vergrendelscherm Mediaspeler</string>
 	<key>HS_QUICK_ACTIONS</key>
 	<string>Beginscherm Snelle Acties</string>
-	<key>APPLICATIONS_BETA_LABEL</key>
-	<string>Applicaties (Beta)</string>
-	<key>APPLICATIONS_BETA_DEFAULT_HELP</key>
-    <string>Na het wijzigen van deze optie naar 'Standaard', moet je de applicaties herstarten waarbij het lichte of donkere uiterlijk gedwongen werd gebruikt, zodat de applicaties zich weer normaal gedragen. Je apparaat respringen zal dit ook oplossen.</string>
     <key>APPLICATIONS</key>
     <string>Applicaties</string>
     <key>ABOUT_LABEL</key>

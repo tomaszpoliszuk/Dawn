@@ -8,10 +8,6 @@
 	<string>Sobre</string>
 	<key>APPLICATIONS</key>
 	<string>Aplicativos</string>
-	<key>APPLICATIONS_BETA_DEFAULT_HELP</key>
-	<string>Depois de definir essa opção como Padrão, você precisará reiniciar os aplicativos que foram forçados a usar sua aparência clara/escura para que eles retornem ao comportamento padrão. Um respring também irá corrigi-lo.</string>
-	<key>APPLICATIONS_BETA_LABEL</key>
-	<string>Aplicativos (Beta)</string>
 	<key>BANNERS_NOTIFICATIONS</key>
 	<string>Banners e Notificações</string>
 	<key>CREATED_BY_ETHANRDOESMC</key>
