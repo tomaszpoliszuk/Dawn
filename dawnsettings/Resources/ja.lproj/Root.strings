@@ -20,6 +20,8 @@
 	<string>通知センターのボタン</string>
 	<key>FOLDERS</key>
 	<string>フォルダ</string>
+    <key>KEYBOARD</key>
+    <string>キーボード</string>
 	<key>LS_MEDIA_PLAYER</key>
 	<string>ロック画面の音楽コントローラ</string>
 	<key>HS_QUICK_ACTIONS</key>

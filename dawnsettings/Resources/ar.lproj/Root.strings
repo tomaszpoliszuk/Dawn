@@ -20,6 +20,8 @@
 	<string>أزرار مركز الإشعارات</string>
 	<key>FOLDERS</key>
 	<string>المجلدات</string>
+    <key>KEYBOARD</key>
+    <string>لوحة المفاتيح</string>
 	<key>LS_MEDIA_PLAYER</key>
 	<string>مشغل موسيقى شاشة القفل</string>
 	<key>HS_QUICK_ACTIONS</key>

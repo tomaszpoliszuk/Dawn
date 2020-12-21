@@ -20,6 +20,8 @@
 	<string>Tlačítka v Oznamovacím Centru</string>
 	<key>FOLDERS</key>
 	<string>Složky</string>
+    <key>KEYBOARD</key>
+    <string>Klávesnice</string>
 	<key>LS_MEDIA_PLAYER</key>
 	<string>Přehrávač Médií na Zamykací Obrazovce</string>
 	<key>HS_QUICK_ACTIONS</key>

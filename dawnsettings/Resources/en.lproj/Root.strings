@@ -20,6 +20,8 @@
 	<string>Notification Center Buttons</string>
 	<key>FOLDERS</key>
 	<string>Folders</string>
+    <key>KEYBOARD</key>
+    <string>Keyboard</string>
 	<key>LS_MEDIA_PLAYER</key>
 	<string>Lock Screen Media Player</string>
 	<key>HS_QUICK_ACTIONS</key>

@@ -20,6 +20,8 @@
 	<string>Értesítési Központi Gombok</string>
 	<key>FOLDERS</key>
 	<string>Mappák</string>
+    <key>KEYBOARD</key>
+    <string>Billentyűzet</string>
 	<key>LS_MEDIA_PLAYER</key>
 	<string>Médialejátszó a Zárolási Képernyőn</string>
 	<key>HS_QUICK_ACTIONS</key>

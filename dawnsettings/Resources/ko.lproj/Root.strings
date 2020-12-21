@@ -20,6 +20,8 @@
 	<string>알림 센터 버튼</string>
 	<key>FOLDERS</key>
 	<string>폴더</string>
+    <key>KEYBOARD</key>
+    <string>키보드</string>
 	<key>LS_MEDIA_PLAYER</key>
 	<string>잠금 화면 미디어 플레이어</string>
 	<key>HS_QUICK_ACTIONS</key>

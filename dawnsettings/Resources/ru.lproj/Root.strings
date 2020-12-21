@@ -20,6 +20,8 @@
 	<string>Элементы Пункта Управления</string>
 	<key>FOLDERS</key>
 	<string>Папки</string>
+    <key>KEYBOARD</key>
+    <string>Клавиатура</string>
 	<key>LS_MEDIA_PLAYER</key>
 	<string>Медиа Плеер Экрана Блокировки</string>
 	<key>HS_QUICK_ACTIONS</key>

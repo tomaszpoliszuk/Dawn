@@ -36,6 +36,8 @@
 	<string>EthanRDoesMC</string>
 	<key>FOLDERS</key>
 	<string>Pastas</string>
+    <key>KEYBOARD</key>
+    <string>Teclado</string>
 	<key>HS_QUICK_ACTIONS</key>
 	<string>Ações Rápidas da Tela Inicial</string>
 	<key>IMAGE_COPYRIGHT</key>

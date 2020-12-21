@@ -20,6 +20,8 @@
 	<string>Przyciski Centrum Powiadomień</string>
 	<key>FOLDERS</key>
 	<string>Foldery</string>
+    <key>KEYBOARD</key>
+    <string>Klawiatura</string>
 	<key>LS_MEDIA_PLAYER</key>
 	<string>Ekran Blokady Odtwarzacz Multimedialny</string>
 	<key>HS_QUICK_ACTIONS</key>

@@ -20,6 +20,8 @@
 	<string>Pulsanti del Centro Notifiche</string>
 	<key>FOLDERS</key>
 	<string>Cartelle</string>
+    <key>KEYBOARD</key>
+    <string>Tastiera</string>
 	<key>LS_MEDIA_PLAYER</key>
 	<string>Comandi multimediali sulla schermata di blocco</string>
 	<key>HS_QUICK_ACTIONS</key>

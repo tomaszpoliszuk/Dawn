@@ -20,6 +20,8 @@
 	<string>Berichtencentrum knoppen</string>
 	<key>FOLDERS</key>
 	<string>Mappen</string>
+    <key>KEYBOARD</key>
+    <string>Toetsenbord</string>
 	<key>LS_MEDIA_PLAYER</key>
 	<string>Vergrendelscherm Mediaspeler</string>
 	<key>HS_QUICK_ACTIONS</key>

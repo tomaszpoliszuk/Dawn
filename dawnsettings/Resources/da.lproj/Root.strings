@@ -20,6 +20,8 @@
 	<string>Meddelelsescenterets Knapper</string>
 	<key>FOLDERS</key>
 	<string>Mapper</string>
+    <key>KEYBOARD</key>
+    <string>Tastatur</string>
 	<key>LS_MEDIA_PLAYER</key>
 	<string>Lock Screen Musikafspiller</string>
 	<key>HS_QUICK_ACTIONS</key>

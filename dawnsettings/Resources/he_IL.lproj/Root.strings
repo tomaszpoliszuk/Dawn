@@ -20,6 +20,8 @@
 	<string>כפתורי מרכז ההתראות</string>
 	<key>FOLDERS</key>
 	<string>תיקיות</string>
+    <key>KEYBOARD</key>
+    <string>מקלדת</string>
 	<key>LS_MEDIA_PLAYER</key>
 	<string>נגן המוזיקה במסך נעילה</string>
 	<key>HS_QUICK_ACTIONS</key>

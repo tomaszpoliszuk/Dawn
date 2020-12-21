@@ -20,6 +20,8 @@
 	<string>Bildirim Merkezi Butonları</string>
 	<key>FOLDERS</key>
 	<string>Klasörler</string>
+    <key>KEYBOARD</key>
+    <string>Klavye</string>
 	<key>LS_MEDIA_PLAYER</key>
 	<string>Kilit Ekranı Medya Oynatıcısı</string>
 	<key>HS_QUICK_ACTIONS</key>

@@ -36,6 +36,8 @@
 	<string>EthanRDoesMC</string>
 	<key>FOLDERS</key>
 	<string>Carpetas</string>
+    <key>KEYBOARD</key>
+    <string>Teclado</string>
 	<key>HS_QUICK_ACTIONS</key>
 	<string>Acciones en la Pantalla de Inicio</string>
 	<key>IMAGE_COPYRIGHT</key>
