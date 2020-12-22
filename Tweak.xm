@@ -86,6 +86,7 @@ NSInteger player;
 NSInteger hsquickactions;
 //NSInteger faceid;
 NSInteger apps;
+NSInteger applibrary;
 
 #pragma mark - Notifications/Banners
 //Banner
@@ -459,6 +460,24 @@ NSInteger apps;
 }
 %end
 
+#pragma mark - App Library
+@interface SBHLibrarySearchController : UIViewController
+@end
+
+%hook SBHLibrarySearchController
+%new
+-(void)updateTraitOverride {
+    [self setOverrideUserInterfaceStyle:applibrary];
+}
+- (void)viewWillAppear:(bool)arg1 {
+    [NSNotificationCenter.defaultCenter addObserver:self selector:@selector(updateTraitOverride) name:@"com.ethanrdoesmc.dawn/override" object:nil];
+    if ( applibrary > 0 ) {
+        [self setOverrideUserInterfaceStyle:applibrary];
+    }
+    %orig;
+}
+%end
+
 #pragma mark - Settings Manager
 void settingsChanged() {
 
@@ -481,6 +500,8 @@ void settingsChanged() {
     //[preferences registerInteger:&faceid default:0 forKey:@"faceid"];
 
     [preferences registerInteger:&apps default:0 forKey:@"apps"];
+
+    [preferences registerInteger:&applibrary default:0 forKey:@"applibrary"];
 
     [NSNotificationCenter.defaultCenter postNotificationName:@"com.ethanrdoesmc.dawn/override" object:nil];
 }
